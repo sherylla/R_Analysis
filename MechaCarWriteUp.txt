@@ -1,0 +1,33 @@
+MPG Regression
+Using multiple linear regression model, we want to predict the mpg (dependent variable) using other independent variables in the dataset: 
+1. Vehicle Length
+2. Vehicle Weight
+3. Spoiler Angle
+4. Ground Clearance
+5. AWD
+
+According to the results, vehicle weight,ground clearance and intercept have significant impact on mpg data. Intercept is statistically significant, which meansthat there are other factors that may have contributed to the mpg data.
+
+The r-squared value is 0.71, which means that roughtly 71% of our mpg predictions will be correct using this model.
+
+Our p-value is 5.35e-11, which is smaller that our significance level of 0.05%, indicates that there is sufficient evidence to reject our null hypothesis , which means that the slope is not equal to zero.
+
+Suspension Coil Summary
+The summary table shows that vehicles in Lot1 and Lot2 pass the design specifications, however, Lot3 vehicles did not pass the design specifications with variance of 170.
+
+Suspension Coil T-Test
+Using the One Sample t-test, we are able to determine that our p-value = 0.4744, which is above our significance level of 0.05%.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+Design my own Study:
+Study1: Quarter Mile Statistics is affected by the vehicle's weight
+H0: Quarter Mile Statistics is not affected by the vehicle's weight
+Ha: Quarter Mile Statistics is affected by vehicle's weight
+Test1:Correlation Analysis
+
+H0: Quarter Mile Statistics is not affected by vehicle's weight, height, spoiler
+ angle and ground clearance
+Ha: Quarter Mile Statistics is affected by vehicle's weight, height, spoiler
+ angle and ground clearance
+Test2: Multiple Linear Regression to test which feature is statistically significant. 
+
+
